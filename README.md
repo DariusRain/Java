@@ -22,4 +22,18 @@ Resources
 
 
 ##### Design Pattern:
+```
+project/
+--*
+--src/
+--main/
+----*
+----java/
+------project-name/
+--------name/
+----------Name.java (Modal)
+----------NameService.java (Handler methods)
+----------NameController.java (Request handler)
+				
 
+```
