@@ -1,4 +1,5 @@
 package com.coderain.springrestapibasic.user;
+
 public class User {
     private Long id;
     private String name;
