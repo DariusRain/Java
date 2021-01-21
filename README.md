@@ -1,7 +1,7 @@
 # Java-Web
 *Portfolio of web based java projects, be sure to check them out below!*
 
-### [Spring Rest API Basic](#)
+### [Spring Rest API Basic](https://github.com/DariusRain/Java-Web/tree/master/spring-rest-api-basic)
 - Initilizing spring boot project with required dependencies
 - Start of testing out a single enpoint
 - Move on to design pattern of creating a modal service and controller
