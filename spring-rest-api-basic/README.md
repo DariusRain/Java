@@ -17,9 +17,8 @@
 <img src="https://github.com/DariusRain/Java/blob/master/imgs/comment-out-spring-data-jpa.gif" />
 
 
-- Reload maven project (Do If no auto update)
+- Reload maven project (Do If no auto update) *[See here](https://github.com/DariusRain/Java/blob/master/imgs/reload-maven-project.gif)*
 
-<img src="https://github.com/DariusRain/Java/blob/master/imgs/reload-maven-project.gif" />
 
 - Test out API root end point and give it a run.
 
