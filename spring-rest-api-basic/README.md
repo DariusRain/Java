@@ -6,18 +6,23 @@
 - Database: [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)*
 
 ### Intitilizing spring boot maven project:
-- Go to Spring's [initilizr](https://start.spring.io/) and generate a boiler plate or just [click here](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.4.2.RELEASE&packaging=jar&jvmVersion=15&groupId=com.example&artifactId=demo&name=demo&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.demo&dependencies=data-jpa,web,postgresql)
-  <img src="https://github.com/DariusRain/Java/blob/1-18-21/imgs/initilizr.svg" /> 
+- Go to Spring's [initilizr](https://start.spring.io/) and fill out project metadata and add dependencies then you generate a boiler plate.
+***Be sure to follow up on adding the dependencies from the image below***
+
+<img src="https://github.com/DariusRain/Java/blob/1-18-21/imgs/initilizr.svg" /> 
 
 - Comment out the "spring-boot-starter-data-jpa" tag from "project/pom.xml"
 *Needed when project is ready for database connection to perform CRUD operations.*
+
 <img src="https://github.com/DariusRain/Java/blob/master/imgs/comment-out-spring-data-jpa.gif" />
 
 
 - Reload maven project (Do If no auto update)
+
 <img src="https://github.com/DariusRain/Java/blob/master/imgs/reload-maven-project.gif" />
 
 - Test out API root end point and give it a run.
+
 ```Java
 // Running test
 
@@ -70,8 +75,6 @@ project/
 ```
 
 
-
-
 ### Database Installation & Integration
 - After downloading [postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) open the installer 
 and follow article on how to go through set up wizard on [Windows](https://www.postgresqltutorial.com/install-postgresql/) or [Mac](https://www.postgresqltutorial.com/install-postgresql-macos/)
@@ -80,6 +83,10 @@ and follow article on how to go through set up wizard on [Windows](https://www.p
 next is on how to add postgresql to environment variables so shells can access the psql command.
     - Follow this for setting path on [Windows](https://stackoverflow.com/a/61759364/12905071)
     - Unfortunately I am not sure if you need to do this on MAC
-    - If MAC users can't run psql command then just run the SQL shell CLI, should be included from the recent postgresql installation above
-      <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-getting-started.gif" />
+    
+  - If MAC or Windows users can't run psql command then just run the SQL shell CLI, should be included from the recent postgresql installation above
+  - SQL Shell CLI (psql)  
+    <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-getting-started.gif" />
       
+  - Any Commandline on OS (If Path can be set system's environment variables)
+    <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
