@@ -73,14 +73,27 @@ project/
 ----------ProjectName.java (Root file of spring application, it boots spring application)				
 ```
 ##### Explaination
-*See and read files in [in this directory](https://github.com/DariusRain/Java-Web/tree/master/spring-rest-api-basic/src/main/java/com/coderain/springrestapibasic/user), recommended.*
-
-Model
+*See and read comments in files that are in [in this directory](https://github.com/DariusRain/Java-Web/tree/master/spring-rest-api-basic/src/main/java/com/coderain/springrestapibasic/user), explains there.*
 
 
 ### Database Installation & Integration
 - After downloading [postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) open the installer 
 and follow article on how to go through set up wizard on [Windows](https://www.postgresqltutorial.com/install-postgresql/) or [Mac](https://www.postgresqltutorial.com/install-postgresql-macos/)
+
+- Set up your application.properties file
+```properties
+spring.datasource.url=jdbc:postgresql:://localhost:< PORT-NUMBER (Default:5432)>/< DATABASE-NAME >
+spring.datasouce.username=
+spring.datasouce.password=
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+```
+<img src="https://github.com/DariusRain/Java/blob/master/imgs/setup-properties-file.gif" />
+
+
+
 
 - You should now have psql on your computer,
 next is on how to add postgresql to environment variables so shells can access the psql command.
@@ -92,5 +105,10 @@ next is on how to add postgresql to environment variables so shells can access t
     <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-getting-started.gif" />
       
   - Any Commandline on OS (If Path can be set system's environment variables)
-    <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
+  
+- Create a database in this case reference to the user modal in the code way above
+  <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
+  
+- Grant psql user to database
+  <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
 

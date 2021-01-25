@@ -1,4 +1,6 @@
 package com.coderain.springrestapibasic.user;
+
+// Required spring classes for Spring, could add more depending on your project.
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
