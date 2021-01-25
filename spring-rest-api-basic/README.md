@@ -65,13 +65,17 @@ project/
 ------*.* 
 ------java/
 --------project-name/
-----------name/ (lowercase/New Package)
-------------Name.java (Modal)
-------------NameService.java (Handler methods)
-------------NameController.java (Request handler)
+----------<MODAL-NAME>/ (Package)
+-------------<MODAL-NAME>.java (Modal)
+-------------<MODAL-NAME>Service.java (Modal Handler methods)
+-------------<MODAL-NAME>Controller.java (Modal Request handler)
 ----------*.*
 ----------ProjectName.java (Root file of spring application, it boots spring application)				
 ```
+##### Explaination
+*See and read files in [in this directory](https://github.com/DariusRain/Java-Web/tree/master/spring-rest-api-basic/src/main/java/com/coderain/springrestapibasic/user), recommended.*
+
+Model
 
 
 ### Database Installation & Integration
@@ -89,3 +93,4 @@ next is on how to add postgresql to environment variables so shells can access t
       
   - Any Commandline on OS (If Path can be set system's environment variables)
     <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
+
