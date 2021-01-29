@@ -110,5 +110,4 @@ next is on how to add postgresql to environment variables so shells can access t
   <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
   
 - Grant psql user to database
-  <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
 
