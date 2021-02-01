@@ -1,9 +1,9 @@
 # RESTful API Basic
-
+**SPRING   **
 ### Resources
 - IDE: [Intellij](https://www.jetbrains.com/idea/)
 - Framework: [Spring Boot](https://spring.io/projects/spring-boot)
-- Database: [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)*
+- Database: [Postgresql](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 ### Intitilizing spring boot maven project:
 - Go to Spring's [initilizr](https://start.spring.io/) and fill out project metadata and add dependencies then you generate a boiler plate.
@@ -108,6 +108,7 @@ next is on how to add postgresql to environment variables so shells can access t
   
 - Create a database in this case reference to the user modal in the code way above
   <img src="https://github.com/DariusRain/Java/blob/master/imgs/postgresql-shell-any.gif" />
-  
+
 - Grant psql user to database
 
+- *If you ever forget password follow [this](https://github.com/DariusRain/Java/blob/master/imgs/forgotten-postgresql-password-fix.gif)*
